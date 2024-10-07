@@ -1,17 +1,17 @@
-# class Uno:
+class Uno:
     
-#     Especialidad=('Ejecutivo')
+    Especialidad=('Ejecutivo')
     
-#     def __init__(self,nombre:str):
-#         self.Nombre=nombre
+    def __init__(self,nombre:str):
+        self.Nombre=nombre
             
-#     def dar_puestos(self):
-#         return (f"{self.Nombre} es un {Uno.Especialidad}")
+    def dar_puestos(self):
+        return (f"{self.Nombre} es un {Uno.Especialidad}")
 
-# nombre1=Uno('Jhon')
-# nombre2=Uno('Pepe')
-# print(nombre1.dar_puestos())
-# print(nombre2.dar_puestos())
+nombre1=Uno('Jhon')
+nombre2=Uno('Pepe')
+print(nombre1.dar_puestos())
+print(nombre2.dar_puestos())
 
 # class Dos:
     
@@ -104,22 +104,20 @@
 # print(f'Los Numeros Sumados dan: {Calculadora.suma()}')
 
 
-# num=int(input('Ingrese el numero que desea saber si es par o impar: '))
+num=int(input('Ingrese el numero que desea saber si es par o impar: '))
 
-# class Dos:
-#     def __init__(self,num:int):
-#         self.num=num
-            
-#     def es_par():
-#         if num % 2 == 0:
-#             print (f'{num} es par')
-#         else:
-#             print (f'{num} es impar')
+class Dos:
+
+    def es_par():
+        if num % 2 == 0:
+            print (f'{num} es par')
+        else:
+            print (f'{num} es impar')
          
 
-# print(Uno.es_par())
+print(Dos.es_par())
 
-# num=int(input('Ingrese el numero: '))
+num=int(input('Ingrese el numero: '))
 
 # class Tres:
     
@@ -165,3 +163,4 @@ class Uno:
 lib1 = Uno('El pecado sin conocer')  
 lib2 = Uno('Silencio')
 print(f'Cantidad de libros: {lib1.contar()}')   
+
