@@ -62,4 +62,8 @@ class Persona (models.Model):
     ]
     Activo= models.PositiveIntegerField(choices=ESTADO_OPCIONES,default=True,verbose_name='Persona Viva',help_text='Coloque el estado de la persona')  
     
-    
+    Tip=[
+        (0,'Natural'),
+        (1,'Juridica')
+    ]
+    Tipo= models.CharField(max_length=20,null=False,verbose_name='Tipo de Persona',help_text='Coloque su tipo ej: Natural o Juridica',choices=Tip,default='Natural')
