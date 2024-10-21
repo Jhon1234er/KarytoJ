@@ -1,0 +1,119 @@
+/*Para colocar estilo a algo normal es solo el nombre */
+h1{
+    background-color:lightblue;
+    color: black;
+    font-style: italic;
+}
+
+/* Para poner color al fondo de un parrafo con Id es con # */
+#M{
+    background-color: bisque;
+}
+
+/* Para poner color a una clase es . */
+.A{
+    background-color: beige;
+}
+
+/* Para la caja */
+
+.Dios1{
+    border: 10px solid white;
+    background-color:white;
+    box-sizing: border-box;
+
+}
+
+.Cuadrado1{
+    width: 50px;
+    height: 50px;
+    margin: -3px;
+    border: 1px solid black ;
+    background-color:red;
+    box-sizing: border-box;
+    display: inline-block;   
+}
+
+.Cuadrado2{
+    width: 50px;
+    height: 50px;
+    margin: -3px;
+    border: 1px solid black ;
+    background-color:blue;
+    box-sizing: border-box;
+    display: inline-block;   
+}
+
+.Cuadrado3{
+    width: 50px;
+    height: 50px;
+    margin: -3px;
+    border: 1px solid black ;
+    background-color:yellow;
+    box-sizing: border-box;
+    display: inline-block;   
+}
+.Cuadrado4{
+    width: 50px;
+    height: 50px;
+    margin: -3px;
+    border: 1px solid black ;
+    background-color:blueviolet;
+    box-sizing: border-box;
+    display: inline-block;   
+}
+
+.Cuadrado5{
+    width: 50px;
+    height: 50px;
+    margin: -3px;
+    border: 1px solid black ;
+    background-color:greenyellow;
+    box-sizing: border-box;
+    display: inline-block;   
+}
+
+.Cuadrado0{
+    width: 50px;
+    height: 50px;
+    margin: -3px;
+    border: 1px solid black ;
+    background-color:white;
+    box-sizing: border-box;
+    display: inline-block;   
+}   
+.Dios2{
+    border: 6px solid rgb(255, 255, 255);
+    background-color:white;
+    box-sizing: border-box;
+}
+
+.Cua1{
+    width: 50px;
+    height: 50px;
+    margin: -3px;
+    border: 1px solid black ;
+    background-color:yellow;
+    box-sizing: border-box;
+    display: inline-block;   
+}
+
+.Cua2{
+    width: 50px;
+    height: 50px;
+    margin: -3px;
+    border: 1px solid black ;
+    background-color:orange;
+    box-sizing: border-box;
+    display: inline-block;   
+}
+
+.Cua0{
+    width: 50px;
+    height: 50px;
+    margin: -3px;
+    border: 1px solid black ;
+    background-color:white;
+    box-sizing: border-box;
+    display: inline-block;
+} 
